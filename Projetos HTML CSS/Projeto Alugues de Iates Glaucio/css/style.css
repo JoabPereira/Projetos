@@ -1,0 +1,245 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat+Alternates:wght@500;700&family=Montserrat:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 1200px;
+}
+
+:root {
+    --font1: 'Montserrat', sans-serif;
+}
+
+nav,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:houver {
+    opacity: 1;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #21272B;
+    width: 1150px;
+    margin-left: 75px;
+}
+
+header img {
+    width: 40px;
+
+
+}
+
+header nav {
+    display: flex;
+    margin-top: 25px;
+}
+
+header li a {
+    color: #fff
+}
+
+header li a#azul {
+    color: #1BB4E8;
+}
+
+header li {
+    margin: 0 13px;
+}
+
+header li:first-child {
+    margin-left: 0;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+header h1 {
+    color: #1BB4E8;
+    position: relative;
+    width: 690px;
+    height: 36px;
+    font-family: var(--font1);
+    font-size: 25px;
+}
+
+header div {
+    width: 180px;
+    height: 60px;
+    margin-right: 340px;
+}
+
+header div p {
+    color: #fff;
+    font-family: var(--font1);
+    font-size: 18px;
+
+}
+
+#barco-principal {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+
+}
+
+img#principal {
+    width: 1150px;
+    margin-top: 75px;
+}
+
+div#sub-info {
+    background-color: #1A3243;
+    height: 250px;
+    width: 450px;
+}
+
+#sub-info {
+    position: absolute;
+    width: 500px;
+    left: 700px;
+    top: 330px;
+
+
+}
+
+#sub-info h2 {
+    align-items: center;
+
+    width: 380px;
+    margin: 40px;
+    color: #fff;
+    font-size: 25px;
+    font-family: var(--font1);
+}
+
+#sub-info div {
+
+    display: inline-flex;
+    width: 350px;
+    margin-left: 43px;
+}
+
+#sub-info div p {
+
+    width: 300px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--font1);
+}
+
+#info-geral {
+
+    display: inline-flex;
+    width: 1150px;
+    margin-left: 75px;
+    margin-top: 20px;
+
+}
+
+#info1 {
+
+    width: 480px;
+    margin-left: 40px;
+}
+
+#info1 div {
+
+    display: inline-flex;
+    background-color: #1BB4E8;
+    align-items: center;
+    width: 480px;
+    height: 45px;
+}
+
+#info1 div a {
+    margin-top: -15px;
+}
+
+#info1 div h2 {
+    margin-left: 5px;
+    color: #fff;
+    font-size: 21px;
+    font-family: var(--font1);
+}
+
+#info1 p {
+    margin-top: 15px;
+}
+
+#p1 {
+
+    font-size: 18px;
+    font-family: var(--font1);
+}
+
+#img2 {
+    margin-top: 20px;
+}
+
+#info2 {
+
+    width: 470px;
+    margin-left: 110px;
+}
+
+#info2 div {
+
+    display: inline-flex;
+    background-color: #C6B07F;
+    align-items: center;
+    width: 470px;
+    height: 45px;
+}
+
+#info2 div h3 {
+    margin-left: 5px;
+    color: #fff;
+    font-size: 21px;
+    font-family: var(--font1);
+}
+
+#info2 p {
+    margin-top: 20px;
+}
+
+#p2 {
+    font-size: 18px;
+    font-family: var(--font1);
+}
+
+h2.barcos1e2 {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#rodape {
+    margin-left: 100px;
+    margin-top: 20px;
+}
